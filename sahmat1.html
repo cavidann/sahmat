@@ -2,34 +2,80 @@
 
 <head>
     <title>sahmat</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css.css">
 </head>
 
 <body>
+    <div class="margin herf border1">a</div>
+    <div class="herf border1">b</div>
+    <div class="herf border1">c</div>
+    <div class="herf border1">d</div>
+    <div class="herf border1">e</div>
+    <div class="herf border1">f</div>
+    <div class="herf border1">g</div>
+    <div class="herf border1">h</div>
+    <div class="sag">
+    <div class="clear"></div>
+    <div class="reqem">8</div>
+    <div class="reqem">7</div>
+    <div class="reqem">6</div>
+    <div class="reqem">5</div>
+    <div class="reqem">4</div>
+    <div class="reqem">3</div>
+    <div class="reqem">2</div>
+    <div class="reqem">1</div>
+    </div>
+    <div class="sol">
+    <div class="reqem1">8</div>
+    <div class="reqem1">7</div>
+    <div class="reqem1">6</div>
+    <div class="reqem1">5</div>
+    <div class="reqem1">4</div>
+    <div class="reqem1">3</div>
+    <div class="reqem1">2</div>
+    <div class="reqem1">1</div>
+    </div>
+    <div class="clear"></div>
+<div class="ort">
     <script>
         var i = 0, c;
-        for (c = 0; c < 8; c++) {
+        for (c = 8; c > 0; c--) {
             if (c % 2 == 0) {
+
                 while (i < 4) {
-                    document.write('<div style="background-color:red;width:20px;float:left;">&nbsp</div>');
-                    document.write('<div style="background-color:black;width:20px;float:left;">&nbsp</div>');
+                    document.write('<div class="orta"><div  class="black"></div></div>');
+                    document.write('<div class="orta"><div class="white"></div></div>');
                     i++;
                 }
                 i = 0;
-                document.write("<br>");
+                
+                //  document.write("<br><br>"+c+"<br><br><br>");
+                // document.write('<div class="reqem"><div>'+c);
             }
             else {
+
                 while (i < 4) {
-                    document.write('<div style="background-color:black;width:20px;float:left;">&nbsp</div>');
-                    document.write('<div style="background-color:red;width:20px;float:left;">&nbsp</div>');
+                    document.write('<div class="orta"><div class="white"></div></div>');
+                    document.write('<div class="orta"><div class="black"></div></div>');
                     i++;
                 }
-                i = 0
-                document.write("<br>");
+                i = 0;
+                
+                // document.write("<br><br><br>"+c+"<br><br><br>");
             }
         }
-
     </script>
+</div>
+<div class="asagi">
+<div class="margin herf border3">a</div>
+<div class="herf border3">b</div>
+<div class="herf border3">c</div>
+<div class="herf border3">d</div>
+<div class="herf border3">e</div>
+<div class="herf border3">f</div>
+<div class="herf border3">g</div>
+<div class="herf border3">h</div>
+</div>
 </body>
 
 </html>
