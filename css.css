@@ -39,8 +39,45 @@ body{
 .reqem{
   font-size:20px; 
      padding-top: 82px;
-    padding-bottom: 7px;
+  
     background: black;
-    width: 820px;
+    width: 17px;
+    
+    
     color: white;
+}
+/*.sag{
+    float: left;
+}*/
+.sol{
+    position: absolute;
+    top: 8;
+    left: 828;
+    float: right;
+        height: 894px;
+    border-left: 5px white solid;
+    background: black;
+}
+.sag{
+    position: absolute;
+    height: 894px;
+    border-right: 5px white solid;
+    background: black; 
+}
+.ort{
+    position: absolute;
+    top: 55px;
+    left: 9px;
+}
+.reqem1{
+  font-size:20px; 
+     padding-top: 82px;  
+    background: black;
+    width: 17px;    
+   
+    color: white;
+}
+.asagi{
+    position: absolute;
+    top: 855;
 }
