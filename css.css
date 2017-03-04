@@ -1,0 +1,46 @@
+body{
+    background: saddlebrown;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background: white;
+    float: right;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background: black;
+    float: right;
+}
+.orta{
+    width: 820px;
+   
+    /*margin: 0 auto;*/
+    background: white;
+  
+}
+.herf{
+    background: black;
+  color: white;
+ padding: 10px 45.4px;
+ float: left;
+ font-size: 20px; 
+}
+.margin{
+    margin-left: 20px; 
+}
+.border3{    
+  border-top: 4px white solid; 
+}
+.border1{
+  border-bottom: 4px white solid; 
+}
+.reqem{
+  font-size:20px; 
+     padding-top: 82px;
+    padding-bottom: 7px;
+    background: black;
+    width: 820px;
+    color: white;
+}
