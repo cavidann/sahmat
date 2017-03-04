@@ -26,9 +26,10 @@ body{
  padding: 10px 45.4px;
  float: left;
  font-size: 20px; 
+  
 }
 .margin{
-    margin-left: 20px; 
+    margin-left: 37px; 
 }
 .border3{    
   border-top: 4px white solid; 
@@ -52,22 +53,25 @@ body{
 .sol{
     position: absolute;
     top: 8;
-    left: 828;
+    left: 845;
     float: right;
         height: 894px;
     border-left: 5px white solid;
     background: black;
+    padding: 0px 7.5px; 
 }
 .sag{
+    padding-left: 15px; 
     position: absolute;
     height: 894px;
     border-right: 5px white solid;
     background: black; 
+    padding: 0px 7.5px; 
 }
 .ort{
     position: absolute;
     top: 55px;
-    left: 9px;
+    left: 25px;
 }
 .reqem1{
   font-size:20px; 
@@ -80,4 +84,5 @@ body{
 .asagi{
     position: absolute;
     top: 855;
+    left: 8px;
 }
